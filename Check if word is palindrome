@@ -1,0 +1,26 @@
+
+let inputPhrase = prompt('Type a word or phrase here:')
+inputPhrase = inputPhrase.toLowerCase()
+inputPhrase = inputPhrase.replace(/\s/g,'')
+
+var eachChar = inputPhrase.split('')
+var reverseChar = inputPhrase.split('').reverse()
+
+if (eachChar.join() === reverseChar.join()) {
+  console.log('Yes, palindrome')
+} else {
+  console.log('Not a palindrome')
+}
+
+
+/*
+ 
+let inputPhrase = prompt("Type a phrase:")
+
+if (isPalindrome(inputPhrase)) {
+   console.log("'" + inputPhrase + "' is a palindrome!")
+} else {
+   console.log("'" + inputPhrase + "' is NOT a palindrome!")
+   
+   
+*/
