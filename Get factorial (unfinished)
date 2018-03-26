@@ -1,0 +1,16 @@
+function getFactorial (n) {
+  let factorial = 1
+  if (n >= 1 && Number.isInteger(n)) {
+    //var counter
+    for (; n > 0 ; n--) {
+      factorial *= n
+    }  
+  } else {
+    factorial = 'impossible'
+  }
+  return factorial
+}
+
+var n = prompt('What is the input?')
+
+console.log('The factorial is ' + getFactorial(n))
