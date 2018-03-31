@@ -1,0 +1,38 @@
+let inputAge = prompt('What is your human age?')
+var dogAge
+
+if (inputAge > 2) 
+{
+  inputAge -= 2
+  dogAge = 21 + 4 * inputAge
+ } 
+else 
+{
+  if (inputAge >= 0) 
+  {
+    dogAge = inputAge * 10.5
+  } 
+  else 
+  {
+    dogAge = 'an impossible age of'
+  }
+}
+
+console.log(`You are ${dogAge} dog years old!`)
+
+/*
+
+let myAge = 16
+let earlyYears = 21
+let laterYears = myAge -= 2
+laterYears = laterYears * 4
+
+console.log(earlyYears)
+console.log(laterYears)
+
+let myAgeInDogYears = earlyYears + laterYears
+let myName = 'Camille'.toLowerCase()
+
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`)
+
+*/
