@@ -1,0 +1,14 @@
+/*
+// forecast in Orlando today in Kelvin
+const Kelvin = 291;
+//forecast today in celcius
+const celcius = Kelvin - 273;
+//forecast today in fahrehneit
+let fahrenheit = celcius * (9/5) + 32;
+//forecast today in fahrenheit rounded down
+fahrenheit = Math.floor(fahrenheit);
+//display of forecast today
+console.log(`The temperature in Orlando today is ${fahrenheit} degrees farenheit.`);
+const kelvin = prompt('What is the Kelvin temperature today?');
+*/
+
